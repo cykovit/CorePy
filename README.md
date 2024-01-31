@@ -1,10 +1,10 @@
-# CorePy
+# Sys2JSON
 
 This Python script is designed to gather essential system information and convert it into a JSON format. It utilizes various modules to retrieve details about the operating system, network configuration, and hardware specifications.
 
 ## Prerequisites
 
-CorePy uses the following modules:
+Sys2JSON uses the following modules:
 
 - `platform`
 - `socket`
@@ -13,16 +13,19 @@ CorePy uses the following modules:
 - `json`
 - `psutil`
 - `logging`
+- `fade`
+- `colorama`
+- `rich`
 
 ## Usage
 
 1. Open a terminal or command prompt
 2. Navigate to the directory containing the script
-3. Run the script using the command: `python corepy.py`
+3. Run the script using the command: `python sys2json.py`
 
 ## System Information Collected
 
-CorePy gathers the following system information:
+Sys2JSON gathers the following system information:
 
 - **Platform**: Operating system name
 - **Platform Release**: Release version of the operating system
@@ -36,7 +39,7 @@ CorePy gathers the following system information:
 
 ## Output
 
-CorePy outputs the system information in JSON format, making it easy to integrate into other applications or store for future reference.
+Sys2JSON outputs the system information in table and JSON format, making it easy to integrate into other applications or store for future reference.
 
 Note: If any exceptions occur during the process of gathering system information, they will be logged using the `logging` module.
 
